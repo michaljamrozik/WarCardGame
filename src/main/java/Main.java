@@ -141,6 +141,7 @@ public class Main {
             removePeekFromBothPlayersAndAddToFightingList(fightingCards, player1, player2);
         }
         player1.addCards(fightingCards);
+        System.out.println("Fighting cards list: " + fightingCards);
         System.out.println(player1);
         System.out.println(player2);
         System.out.println("Fighting cards list: " + fightingCards);
