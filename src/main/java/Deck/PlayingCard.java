@@ -1,10 +1,6 @@
 package Deck;
 
-import Deck.Rank;
-import Deck.Suit;
-
-
-public class PlayingCard implements Comparable<PlayingCard>{ //zmienic na default
+public class PlayingCard implements Comparable<PlayingCard>{
 
     private Rank rank;
     private Suit suit;

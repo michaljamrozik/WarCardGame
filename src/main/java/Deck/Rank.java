@@ -1,6 +1,6 @@
 package Deck;
 
-enum Rank { //zmienic na default
+enum Rank {
     TWO,
     THREE,
     FOUR,
